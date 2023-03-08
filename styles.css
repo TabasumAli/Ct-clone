@@ -33,18 +33,19 @@ p{
 }
 
 header{
-    margin-bottom: 9rem;
-    /* background: linear-gradient(270deg, rgb(213, 212, 228) 0%, rgb(255, 255, 255) 100%); */
+    margin-bottom: 7rem;
+    padding-top: 70px;
+    background: linear-gradient(270deg, rgb(213, 212, 228) 0%, rgb(248,246,247) 100%);
     /* background: linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%); */
     /* background: linear-gradient(45deg, red 0 50%, blue 50% 100%); */
     /* background: linear-gradient(to  right bottom, #f10505 ,#f10505 75%,#f10505 75%); */
-    background: linear-gradient(to left, #eee, #eee 50%, #eee 75%, #eee 35%);
+    /* background: linear-gradient(to left, #eee, #eee 50%, #eee 75%, #eee 35%); */
     
 
 }
 header::after{
     content: "";
-    top: -845px;
+    top: -800px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -54,7 +55,7 @@ header::after{
     transform-origin: bottom left;
     transform: skewY(41deg);
     z-index: -1;
-    border-bottom-right-radius: 82%;
+    border-bottom-right-radius: 78%;
     position: absolute;
 
 }
