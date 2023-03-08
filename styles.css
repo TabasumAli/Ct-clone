@@ -33,11 +33,29 @@ p{
 }
 
 header{
-    background: linear-gradient(180deg, rgb(213, 212, 228) 0%, rgb(255, 255, 255) 100%);
+    margin-bottom: 9rem;
+    /* background: linear-gradient(270deg, rgb(213, 212, 228) 0%, rgb(255, 255, 255) 100%); */
     /* background: linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%); */
     /* background: linear-gradient(45deg, red 0 50%, blue 50% 100%); */
-    /* background: linear-gradient(to right bottom, #eee 75%, #333 75%); */
-    border-bottom-right-radius: 20%;
+    /* background: linear-gradient(to  right bottom, #f10505 ,#f10505 75%,#f10505 75%); */
+    background: linear-gradient(to left, #eee, #eee 50%, #eee 75%, #eee 35%);
+    
+
+}
+header::after{
+    content: "";
+    top: -845px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    transform-origin: bottom left;
+    transform: skewY(41deg);
+    z-index: -1;
+    border-bottom-right-radius: 82%;
+    position: absolute;
 
 }
 
